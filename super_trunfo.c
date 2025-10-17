@@ -7,22 +7,27 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
     char estado = 'A'; 
-    char codigo[10];
-    char cidade[20] = 'Fortaleza';
+    char codigo[10] = "A01";
+    char cidade[20] = "Fortaleza";
     int populaçao = 2578483;
     float area = 313.8;
     float pib = 73.4;
-    float pontos_turisticos;
+    int pontos_turisticos = 66;
 
   // Área para entrada de dados
-  printf("Qual o estado?");
-  printf("Qual o código?");
-  printf("Nome da cidade?");
-  printf("População?");
-  printf("Area?");
-  printf("PIB?");
-  printf("Quantos pontos turísticos?");
+  printf("Qual o estado? \n");
+  printf("Qual o código?\n");
+  printf("Nome da cidade?\n");
+  printf("População?\n");
+  printf("Area?\n");
+  printf("PIB?\n");
+  printf("Quantos pontos turísticos?\n");
   // Área para exibição dos dados da cidade
-
+    scanf("%c", &estado);
+    scanf("%c", &codigo);
+    scanf("%s", &cidade);
+    scanf("%d", &populaçao);
+    scanf("%f", &area);
+    scanf("%i", &pontos_turisticos);
 return 0;
 } 
