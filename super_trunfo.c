@@ -16,15 +16,15 @@ int main() {
 
   // Área para entrada de dados
   printf("Qual o estado? \n");
-  printf("Qual o código?\n");
-  printf("Nome da cidade?\n");
-  printf("População?\n");
-  printf("Area?\n");
-  printf("PIB?\n");
-  printf("Quantos pontos turísticos?\n");
+  printf("Qual o código? \n");
+  printf("Nome da cidade? \n");
+  printf("População? \n");
+  printf("Area? \n");
+  printf("PIB? \n");
+  printf("Quantos pontos turísticos? \n");
   // Área para exibição dos dados da cidade
-    scanf("%c", &estado); 
-    scanf("%c", &codigo);
+    scanf("%s", &estado); 
+    scanf("%s", &codigo);
     scanf("%s", &cidade);
     scanf("%d", &populaçao);
     scanf("%f", &area);

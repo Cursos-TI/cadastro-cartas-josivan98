@@ -3,10 +3,10 @@
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das cartas
 // Objetivo: No nível novato você deve criar as cartas representando as cidades utilizando scanf para entrada de dados e printf para exibir as informações.
-// Organizando o código
+
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-    char estado = 'A'; 
+    char estado = 'A';
     char codigo[3] = "A01";
     char cidade[20] = "Fortaleza";
     int populaçao = 2578483;
@@ -15,34 +15,34 @@ int main() {
     int pontos_turisticos = 66;
 
     //Área para entrada de dados
-    printf("Qual o estado? \n");
+    printf("Qual o estado? \n", &estado);
     scanf("%c", &estado); 
 
-    printf("Qual o código?\n");
+    printf("Qual o código?\n", &codigo);
     scanf("%s", &codigo);
 
-    printf("Nome da cidade?\n");
+    printf("Nome da cidade?\n", &cidade);
     scanf("%s", &cidade);
 
-    printf("População?\n");
+    printf("População?\n", &populaçao);
     scanf("%d", &populaçao);
 
-    printf("Area?\n");
+    printf("Area?\n", &area);
     scanf("%f", &area);
 
-    printf("pib?\n");
-    scanf("%2f", &pib);
+    printf("pib?\n", &pib);
+    scanf("%f", &pib);
 
-    printf("Quantos pontos turísticos?\n");
-    scanf("%i", &pontos_turisticos);
+    printf("Quantos pontos turísticos?\n", pontos_turisticos);
+    ascanf("%i", &pontos_turisticos);
 
     //Área para exibição dos dados da cidade
-    printf("Estado: %c");
+    /*printf("Estado: %c");
     printf("Cidade: %s");
     printf("Código: %s");
     printf("População: %d");
     printf("Area em km2: %f");
     printf("PIB: %f");
-    printf("Pontos turísticos: %d");
+    printf("Pontos turísticos: %d");*/
 return 0;
 } 
