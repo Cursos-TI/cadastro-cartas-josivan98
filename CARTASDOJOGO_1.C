@@ -22,8 +22,8 @@ int main(){
     float dens_popu = 2608.87;
     float per_capita = 9.57
 
-    printf("pib per capita: %f", per_capita);
-    printf("densidade popilacional: %f", dens_popu);
+   /* printf("pib per capita: %f", per_capita);
+    printf("densidade popilacional: %f", dens_popu);*/
 
     return 0;
 }
