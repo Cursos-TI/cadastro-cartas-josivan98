@@ -9,23 +9,24 @@ int main() {
     char estadoA = 'A'; 
     char codigoA[3] = "A01";
     char cidadeA[20] = "Fortaleza";
-    int populaçaoA = 2578483;
+    unsigned long int populaçaoA = 2578483;
     float areaA = 313.8;
     float pibA = 73.4;
     int pontos_turisticosA = 66;
     float dens_popuA = 0.82;
     float per_capitaA = 28.4;
+    float dens_Pop_inverA = 121.6;
 
     char estadoB = 'B'; 
     char codigoB[5] = "B01";
     char cidadeB[20] = "Salvador";
-    float populaçaoB =  2.56;
+    unsigned long int populaçaoB =  2568928;
     float areaB = 693.442;
     float pibB = 69.9;
     int pontos_turisticosB = 11;
     float dens_popuB = 27.3;
     float per_capitaB = 3692;
-
+    float dens_Pop_inverB = 269.9;
 
 
     //Área para entrada de dados
@@ -58,12 +59,17 @@ int main() {
     printf(" por Km²\n");
     printf("Pib per capita: %.2f", per_capita);
     printf(" mil");*/
+  //adicionando o super poderes das cartas.
 
+  unsigned long Super_poderA = populaçaoA + areaA + pibA + pontos_turisticosA + per_capitaA + dens_Pop_inverA;
+  unsigned long Super_poderB = populaçaoB + areaB + pibB + pontos_turisticosB + per_capitaB + dens_Pop_inverB;
     //fazendo comparação de população
 
-    printf(" A população A01: %.2f, é maior que a população BO1: %.d? %d\n",
+    /*printf(" A população A01: %u, é maior que a população BO1: %u? %d\n",
                                                    populaçaoA, populaçaoB,
-                                                   (populaçaoA) > (populaçaoB));
+                                                   (populaçaoA) > (populaçaoB));*/
+
+  printf("super poder A é: %u", Super_poderA);
 
       
 return 0;
