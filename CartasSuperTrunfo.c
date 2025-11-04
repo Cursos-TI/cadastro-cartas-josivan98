@@ -16,6 +16,7 @@ int main() {
     float dens_popuA = 0.82;
     float per_capitaA = 28.4;
     float dens_Pop_inverA = 121.6;
+    float super_poder = 2.579;
 
     char estadoB = 'B'; 
     char codigoB[5] = "B01";
@@ -27,6 +28,7 @@ int main() {
     float dens_popuB = 27.3;
     float per_capitaB = 3692;
     float dens_Pop_inverB = 269.9;
+    float super_poderB = 2.573;
 
 
     //Área para entrada de dados
@@ -61,15 +63,16 @@ int main() {
     printf(" mil");*/
   //adicionando o super poderes das cartas.
 
-  unsigned long Super_poderA = populaçaoA + areaA + pibA + pontos_turisticosA + per_capitaA + dens_Pop_inverA;
-  unsigned long Super_poderB = populaçaoB + areaB + pibB + pontos_turisticosB + per_capitaB + dens_Pop_inverB;
-    //fazendo comparação de população
+  /*unsigned long Super_poderA = populaçaoA + areaA + pibA + pontos_turisticosA + per_capitaA + dens_Pop_inverA;
+  unsigned long Super_poderB = populaçaoB + areaB + pibB + pontos_turisticosB + per_capitaB + dens_Pop_inverB;*/
+   
+  //fazendo comparação de população
 
     /*printf(" A população A01: %u, é maior que a população BO1: %u? %d\n",
                                                    populaçaoA, populaçaoB,
                                                    (populaçaoA) > (populaçaoB));*/
 
-  printf("super poder A é: %u", Super_poderA);
+ // printf("super poder B é: %u", Super_poderA);
 
       
 return 0;
