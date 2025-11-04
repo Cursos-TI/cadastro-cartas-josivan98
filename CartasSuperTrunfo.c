@@ -6,43 +6,64 @@
 // Organizando o código
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-    char estado = 'A'; 
-    char codigo[3] = "A01";
-    char cidade[20] = "Fortaleza";
-    int populaçao = 2578483;
-    float area = 313.8;
-    float pib = 73.4;
-    int pontos_turisticos = 66;
+    char estadoA = 'A'; 
+    char codigoA[3] = "A01";
+    char cidadeA[20] = "Fortaleza";
+    int populaçaoA = 2578483;
+    float areaA = 313.8;
+    float pibA = 73.4;
+    int pontos_turisticosA = 66;
+    float dens_popuA = 0.82;
+    float per_capitaA = 28.4;
+
+    char estadoB = 'B'; 
+    char codigoB[5] = "B01";
+    char cidadeB[20] = "Salvador";
+    float populaçaoB =  2.56;
+    float areaB = 693.442;
+    float pibB = 69.9;
+    int pontos_turisticosB = 11;
+    float dens_popuB = 27.3;
+    float per_capitaB = 3692;
+
+
 
     //Área para entrada de dados
-    printf("Qual o estado? \n");
-    scanf("%c", &estado); 
+    /*printf("Qual o estado? \n", estado);
 
-    printf("Qual o código?\n");
-    scanf("%s", codigo);
+    printf("Qual o código? \n", codigo);
 
-    printf("Nome da cidade?\n");
-    scanf("%s", &cidade);
+    printf("Nome da cidade?\n", cidade);
 
-    printf("População?\n");
-    scanf("%d", &populaçao);
+    printf("População?\n", populaçao);
 
-    printf("Area?\n");
-    scanf("%f", &area);
+    printf("Area?\n", area);
 
-    printf("pib?\n");
-    scanf("%f", &pib);
+    printf("pib?\n", pib);
 
-    printf("Quantos pontos turísticos?\n");
-    scanf("%i", &pontos_turisticos);
+    printf("Quantos pontos turísticos?\n");*/
 
     //Área para exibição dos dados da cidade
-    printf("Estado: %c");
-    printf("Cidade: %s");
-    printf("Código: %s");
-    printf("População: %d");
-    printf("Area em km2: %f");
-    printf("PIB: %f");
-    printf("Pontos turísticos: %d");
+    /*printf("Estado: %c \n", estado);
+    printf("Cidade: %s \n", cidade);
+    printf("Código: %s\n ", codigo);
+    printf("População: %.2f", populaçao);
+    printf(" Milhões \n");
+    printf("Area: %.2f", area);
+    printf(" Km²\n");
+    printf("PIB: %.2f", pib);
+    printf(" Bilhões\n");
+    printf("Pontos turísticos: %d\n", pontos_turisticos);
+    printf("Densidade populacional: %.2f", dens_popu);
+    printf(" por Km²\n");
+    printf("Pib per capita: %.2f", per_capita);
+    printf(" mil");*/
+
+    //fazendo comparação de população
+
+    printf(" A população A01 %.2f é maior que a população BO1? %.2f \n",
+                                                    populaçaoA > populaçaoB);
+
+      
 return 0;
 } 
