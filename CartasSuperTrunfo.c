@@ -61,8 +61,9 @@ int main() {
 
     //fazendo comparação de população
 
-    printf(" A população A01 %.2f é maior que a população BO1? %.2f \n",
-                                                    populaçaoA > populaçaoB);
+    printf(" A população A01: %.2f, é maior que a população BO1: %.d? %d\n",
+                                                   populaçaoA, populaçaoB,
+                                                   (populaçaoA) > (populaçaoB));
 
       
 return 0;
