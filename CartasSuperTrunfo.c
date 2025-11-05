@@ -30,49 +30,33 @@ int main() {
     float dens_Pop_inverB = 269.9;
     float super_poderB = 2.573;
 
+  //DETALHE: super poder é a soma de: populaçao, area, pib, pontos turis, per cap e dens inversa.
 
     //Área para entrada de dados
-    /*printf("Qual o estado? \n", estado);
+    
 
-    printf("Qual o código? \n", codigo);
-
-    printf("Nome da cidade?\n", cidade);
-
-    printf("População?\n", populaçao);
-
-    printf("Area?\n", area);
-
-    printf("pib?\n", pib);
-
-    printf("Quantos pontos turísticos?\n");*/
-
-    //Área para exibição dos dados da cidade
-    /*printf("Estado: %c \n", estado);
-    printf("Cidade: %s \n", cidade);
-    printf("Código: %s\n ", codigo);
-    printf("População: %.2f", populaçao);
-    printf(" Milhões \n");
-    printf("Area: %.2f", area);
-    printf(" Km²\n");
-    printf("PIB: %.2f", pib);
-    printf(" Bilhões\n");
-    printf("Pontos turísticos: %d\n", pontos_turisticos);
-    printf("Densidade populacional: %.2f", dens_popu);
-    printf(" por Km²\n");
-    printf("Pib per capita: %.2f", per_capita);
-    printf(" mil");*/
-  //adicionando o super poderes das cartas.
-
-  /*unsigned long Super_poderA = populaçaoA + areaA + pibA + pontos_turisticosA + per_capitaA + dens_Pop_inverA;
-  unsigned long Super_poderB = populaçaoB + areaB + pibB + pontos_turisticosB + per_capitaB + dens_Pop_inverB;*/
-   
-  //fazendo comparação de população
-
-    /*printf(" A população A01: %u, é maior que a população BO1: %u? %d\n",
+  printf(" A população A01: %u, é maior que a população BO1? %u %d\n",
                                                    populaçaoA, populaçaoB,
-                                                   (populaçaoA) > (populaçaoB));*/
+                                                   (populaçaoA) > (populaçaoB));
 
- // printf("super poder B é: %u", Super_poderA);
+  printf(" area A %.2f é maior que area B %.2f %d \n", areaA, areaB,
+                                                    (areaA) > (areaB) );
+                                               
+  printf(" PIB A %.2f é maior que PIB B %.2f %d \n", pibA, pibB,
+                                                    (pibA) > (pibB) );
+
+  printf(" pontos turisticos A %d é maior que pontos tur B %d %d \n", pontos_turisticosA , pontos_turisticosB,
+                                                    (pontos_turisticosA) > (pontos_turisticosB) );
+
+  printf(" A densidade populacional A %.2f é maior que densi popu B %.2f %d \n", dens_popuA, dens_popuB,
+                                                    (dens_popuA) > (dens_popuB) );
+
+  printf(" Per capita A %.2f é maior que per capita B %.2f %d \n", per_capitaA, per_capitaB,
+                                                    (per_capitaA) > (per_capitaB) );
+
+   printf(" Super poder A %.2f é maior que Super poder B %.2f %d \n", super_poder, super_poderB,
+                                                    (areaA) > (areaB) );
+
 
       
 return 0;
